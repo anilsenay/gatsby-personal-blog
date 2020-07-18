@@ -1,7 +1,8 @@
 ---
-slug: "/blog/deneme-post2"
-date: "2012-07-18"
+slug: "/blog-posts/deneme_post2"
+date: "2020-07-18"
 title: "first test post2"
+keywords: "deneme2, tes222t, an222il, sena222y, test"
 ---
 # Foobar
 

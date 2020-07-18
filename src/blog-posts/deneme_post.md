@@ -1,7 +1,8 @@
 ---
-slug: "/blog/deneme-post"
-date: "2012-07-18"
+slug: "/blog-posts/deneme_post"
+date: "2020-07-18"
 title: "Deneme İçin Post"
+keywords: "deneme, test, anil, senay"
 ---
 
 
