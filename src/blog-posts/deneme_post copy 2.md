@@ -4,34 +4,11 @@ date: "2020-07-18"
 title: "Deneme 3. post"
 keywords: "deneme2, tes222t, an222il, sena222y, test"
 ---
-# Foobar
 
-Foobar is a Python library for dealing with word pluralization.
+![alt text](https://im.haberturk.com/2019/11/02/ver1572683889/2536709_823x465.jpg "Lorem")
 
-## Installation
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis semper ipsum, eu vehicula lectus mollis id. Curabitur facilisis et leo et lobortis. In ex risus, dictum quis urna vel, varius congue nisi. Fusce arcu ante, interdum nec felis iaculis, placerat vehicula augue. Quisque tempor odio lacus, vitae bibendum est blandit et. In hac habitasse platea dictumst. Etiam imperdiet sit amet metus non imperdiet. Mauris convallis gravida lorem, eu efficitur lorem pulvinar vehicula. Nullam laoreet tortor libero, quis porttitor mi dapibus et. Nunc et lectus eleifend, rutrum dolor eget, auctor velit.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Praesent nisi felis, mollis sit amet scelerisque id, cursus quis nisl. Maecenas vel tincidunt lacus. Morbi tristique libero orci. Vestibulum vitae magna et leo sollicitudin varius in at odio. Cras luctus dolor in sem feugiat, ut pretium est pulvinar. Ut malesuada egestas magna, vitae blandit ex aliquam sit amet. Integer id scelerisque elit. Phasellus venenatis tempus volutpat. Maecenas porttitor dui nec elit commodo suscipit. Curabitur eget elementum massa. Integer mattis odio ac augue vehicula, sed ultricies turpis pulvinar. Nunc blandit in massa eget consectetur. Vestibulum ornare dolor elit, nec ultricies neque blandit sed. Curabitur sit amet lacinia eros.
 
-```bash
-pip install foobar
-```
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
------
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Nulla tortor mauris, dignissim at odio vitae, lobortis vulputate felis. Duis tortor mi, malesuada eu turpis eget, accumsan ultricies est. Donec nec tellus suscipit, auctor lorem ut, placerat ante. Sed enim enim, luctus vel leo nec, sagittis interdum ipsum. Nulla euismod sodales elit ac blandit. Nunc venenatis metus dui, id volutpat mi ultrices vitae. Sed ultricies et ipsum eu iaculis. Etiam nec tristique ante. 

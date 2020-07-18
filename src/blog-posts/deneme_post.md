@@ -1,13 +1,49 @@
 ---
 slug: "/blog-posts/deneme_post"
 date: "2020-07-18"
-title: "Deneme İçin Post"
-keywords: "deneme, test, anil, senay"
+title: "Deneme: React"
+keywords: "react, tr.reactjs.org"
 ---
 
+NOT: Bu örnek tr.reactjs.org adresinden test için alınmıştır.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis semper ipsum, eu vehicula lectus mollis id. Curabitur facilisis et leo et lobortis. In ex risus, dictum quis urna vel, varius congue nisi. Fusce arcu ante, interdum nec felis iaculis, placerat vehicula augue. Quisque tempor odio lacus, vitae bibendum est blandit et. In hac habitasse platea dictumst. Etiam imperdiet sit amet metus non imperdiet. Mauris convallis gravida lorem, eu efficitur lorem pulvinar vehicula. Nullam laoreet tortor libero, quis porttitor mi dapibus et. Nunc et lectus eleifend, rutrum dolor eget, auctor velit.
+En basit React örneği aşağıdaki gibidir:
+```js
+ReactDOM.render(
+  <h1>Merhaba dünya!</h1>,
+  document.getElementById('root')
+);
+```
 
-Praesent nisi felis, mollis sit amet scelerisque id, cursus quis nisl. Maecenas vel tincidunt lacus. Morbi tristique libero orci. Vestibulum vitae magna et leo sollicitudin varius in at odio. Cras luctus dolor in sem feugiat, ut pretium est pulvinar. Ut malesuada egestas magna, vitae blandit ex aliquam sit amet. Integer id scelerisque elit. Phasellus venenatis tempus volutpat. Maecenas porttitor dui nec elit commodo suscipit. Curabitur eget elementum massa. Integer mattis odio ac augue vehicula, sed ultricies turpis pulvinar. Nunc blandit in massa eget consectetur. Vestibulum ornare dolor elit, nec ultricies neque blandit sed. Curabitur sit amet lacinia eros.
 
-Nulla tortor mauris, dignissim at odio vitae, lobortis vulputate felis. Duis tortor mi, malesuada eu turpis eget, accumsan ultricies est. Donec nec tellus suscipit, auctor lorem ut, placerat ante. Sed enim enim, luctus vel leo nec, sagittis interdum ipsum. Nulla euismod sodales elit ac blandit. Nunc venenatis metus dui, id volutpat mi ultrices vitae. Sed ultricies et ipsum eu iaculis. Etiam nec tristique ante. 
+Ekrana "Merhaba dünya!" başlığını yazdırır.
+
+**[Codepen'de Aç](codepen://hello-world)**
+
+Yukarıdaki linke tıklayarak online düzenleyiciyi açabilirsiniz. Değişiklik yapmaktan çekinmeyin ve yaptığınız değişikliklerin çıktısını gözlemleyin. Bu rehberdeki çoğu sayfada bunun gibi düzenlenebilir örnekler göreceksiniz.
+
+## Bu Rehberi Nasıl Okumalısınız? {#how-to-read-this-guide}
+
+Bu rehberde, React uygulamalarının yapı taşları olan elemanları (Element) ve bileşenleri (Component) inceleyeceğiz. Bunlarda uzmanlaştığınızda, küçük ve tekrar kullanılabilir parçalardan karmaşık uygulamalar oluşturabilirsiniz.
+
+>İpucu
+>
+>Bu rehber **adım adım öğrenme** konseptini tercih eden kişiler için hazırlanmıştır. Eğer yaparak öğrenmeyi tercih ediyorsanız, [pratik öğretici](/tutorial/tutorial.html) sayfamıza göz atabilirsiniz. Bu rehberi ve pratiğe dayalı dersleri birbirine tamamlayıcı olarak kullanabilirsiniz.
+
+Bu bölüm, adım adım temel React konseptlerinin ilk bölümü. Yandaki menüden diğer bölümlere ulaşabilirsiniz. Eğer bunu mobil cihazda okuyorsanız, sağ alt köşedeki butona basarak menüye ulaşabilirsiniz.
+
+Bu rehberdeki her bölüm, önceki bölümlerden edinilen bilgilere dayanarak ilerlemektedir. **Yan menüde "Temel Konseptler" başlığı altındaki bölümleri sırasıyla okuyarak React hakkındaki önemli konuları öğrenebilirsiniz.** Örneğin bundan sonraki bölüm, [“JSX'e Giriş”](/docs/introducing-jsx.html).
+
+## Bilgi Seviyesi Varsayımları {#knowledge-level-assumptions}
+
+React bir JavaScript kütüphanesidir ve bu yüzden sizin temel düzeyde JavaScript dilini anladığınızı varsayacağız. **Eğer yeteri kadar rahat hissetmiyorsanız, [JavaScript derslerine](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) göz atmanızı ve bilgi seviyenizi kontrol etmenizi** tavsiye ederiz. Böylelikle bu rehberi takip ederken kaybolmazsınız. Bu, yaklaşık 30 dakika ile 1 saat arası bir sürenizi alabilir; fakat sonuç olarak aynı anda hem React hem JavaScript öğreniyormuş gibi hissetmek zorunda hissetmeyeceksiniz.
+
+>Not
+>
+>Bu rehberdeki örneklerde bazen yeni JavaScript sözdizimi kullanımlarına rastlayabilirsiniz. Eğer son bir kaç yıldır JavaScript'le çalışmadıysanız,
+[bu üç madde](https://gist.github.com/gaearon/683e676101005de0add59e8bb345340c) şu an için yeterli olacaktır.
+
+
+## Hadi Başlayalım! {#lets-get-started}
+
+Aşağı inmeye devam edin, sayfanın en altından hemen önce, [bu rehberin bir sonraki bölümü](/docs/introducing-jsx.html)nün linkini bulacaksınız.
