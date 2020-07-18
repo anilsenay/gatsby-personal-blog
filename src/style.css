@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --text-color: #e4e2ff;
+    --green-text-color: #17b06b;
+
+}
+
+hr {
+    margin-top: 35px !important;
+    margin-bottom: 25px !important;
+    border: 1 !important;
+    border-bottom: 1px dashed #17b06b !important;
+    border-top: 1px rgba(0,0,0,.1) !important;
+    background: none !important;
+}
+body{
+    background-color: #0c0d16;
+    color: var(--text-color) !important;
+}
 .test{
     @apply bg-red-900
 }

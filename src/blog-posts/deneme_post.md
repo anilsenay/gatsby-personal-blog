@@ -1,7 +1,7 @@
 ---
 slug: "/blog/deneme-post"
 date: "2012-07-18"
-title: "first test post"
+title: "Deneme İçin Post"
 ---
 
 
