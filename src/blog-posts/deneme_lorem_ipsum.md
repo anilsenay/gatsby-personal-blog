@@ -1,8 +1,8 @@
 ---
-slug: "/blog-posts/deneme_post3"
+slug: "/blog-posts/deneme_lorem_ipsum"
 date: "2020-07-18"
 title: "Deneme 3. post"
-keywords: "deneme2, tes222t, an222il, sena222y, test"
+keywords: "deneme2, lorem, ipsum, blog, test"
 ---
 
 ![alt text](https://im.haberturk.com/2019/11/02/ver1572683889/2536709_823x465.jpg "Lorem")

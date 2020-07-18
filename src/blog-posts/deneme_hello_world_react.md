@@ -1,11 +1,11 @@
 ---
-slug: "/blog-posts/deneme_post"
+slug: "/blog-posts/deneme_hello_world_react"
 date: "2020-07-18"
 title: "Deneme: React"
 keywords: "react, tr.reactjs.org"
 ---
 
-NOT: Bu örnek tr.reactjs.org adresinden test için alınmıştır.
+### NOT: Bu örnek tr.reactjs.org adresinden test için alınmıştır.
 
 En basit React örneği aşağıdaki gibidir:
 ```js

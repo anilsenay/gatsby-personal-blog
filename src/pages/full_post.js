@@ -45,7 +45,7 @@ export default function FullPost({location}) {
             </div>
             <hr/>
             <div
-              className="blog-post-content mt-4"
+              className="blog-post-content mt-8"
               dangerouslySetInnerHTML={{ __html: data.html }}
             />
         </div>
