@@ -19,7 +19,7 @@ const Search = ({data, location}) => {
   return (
 
     <div className="blog-post-container m-auto max-w-6xl lg:px-20 px-8 mt-24">
-      <div onClick={() => window.history.back()}>
+      <div className="cursor-pointer" onClick={() => window.history.back()}>
         <BackIcon width={32} fill="#e4e2ff" className="mb-10"/>
       </div>
       <Header name={`Searched tag: #${word}`} info={`Found ${posts.length} post`}/>
