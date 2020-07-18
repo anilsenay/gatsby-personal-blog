@@ -12,7 +12,7 @@ hr {
     margin-top: 20px !important;
     margin-bottom: 25px !important;
     border: 1 !important;
-    border-bottom: 1px dashed #17b06b !important;
+    border-bottom: 1px dashed var(--green-text-color) !important;
     border-top: 1px rgba(0,0,0,.1) !important;
     background: none !important;
 }
@@ -22,7 +22,7 @@ body{
     font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
 }
 .post-info{
-    color: #17b06b;
+    color: var(--green-text-color);
 }
 
 .personal-blog-font{
@@ -36,4 +36,8 @@ body{
     font-weight: 300;
     line-height: 1.2;
     margin-bottom: .7rem;
+}
+
+.green-border{
+    border-color: var(--green-text-color);
 }

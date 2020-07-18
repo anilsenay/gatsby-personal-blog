@@ -11,14 +11,15 @@ import BackIcon from '../assets/back_icon';
 const Search = ({data, location}) => {
 
   const word = location.state.word
+
+  // filtering graphql query with variables is not supporting, so I have to get all data and filter in js
   const posts = data.allMarkdownRemark.nodes.filter(post => post.frontmatter.keywords.includes(word));
-  console.log(posts)
   
   return (
 
     <div className="blog-post-container m-auto max-w-6xl lg:px-20 px-8 mt-24">
       <div onClick={() => window.history.back()}>
-      <BackIcon width={32} fill="#e4e2ff" className="mb-10"/>
+        <BackIcon width={32} fill="#e4e2ff" className="mb-10"/>
       </div>
       <Header name={`Searched tag: #${word}`} info={`Found ${posts.length} post`}/>
       {posts.map(post => {

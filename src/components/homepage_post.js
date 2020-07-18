@@ -1,5 +1,6 @@
 import React from 'react'
 import DateIcon from '../assets/date_icon'
+import TagIcon from '../assets/tag_icon'
 
 export default function Post({data}) {
     return (
@@ -12,7 +13,13 @@ export default function Post({data}) {
                     <span className="ml-2 text-sm mt-1">~{parseInt(data.wordCount.words / 200) + 1} min read</span>
 
                 </div>
-                <div className="mb-8">{data.excerpt}</div>
+                <div className="mb-4">{data.excerpt}</div>
+                <span className="text-sm flex mb-8 post-info">
+                    <TagIcon width={20} fill="#17b06b"/>
+                    {
+                        data.frontmatter.keywords?.split(", ").map(keyword => <a className="ml-2 underline">#{keyword}</a>)
+                    }
+                </span>
             </div>
     )
 }

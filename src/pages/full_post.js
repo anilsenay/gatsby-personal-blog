@@ -7,11 +7,23 @@ import BackIcon from '../assets/back_icon';
 
 export default function FullPost({location}) {
 
-    if(location === null && location.state === null){
-        return <div></div>
-    }
-
     const data = location.state;
+
+    if(data === null){
+        return (
+            <div className="blog-post-container m-auto max-w-6xl md:px-4 lg:px-20 px-8 mt-16 flex-column text-center">
+                <h1>Page Not Found</h1>
+                
+                <Link to="/">
+                    <div className="inline-flex border-2 border-dashed green-border p-2">
+                        <BackIcon width={24} fill="#e4e2ff" className="mr-5"/> 
+                        <span>If you lost, click here to go homepage </span>
+                    </div>
+                </Link>
+            </div>
+
+          )
+    }
 
     return (
   
