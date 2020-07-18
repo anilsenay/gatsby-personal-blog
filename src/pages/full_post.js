@@ -27,7 +27,7 @@ export default function FullPost({location}) {
                 <span className="text-sm mt-1 flex flex-1 lg:justify-end">
                     <TagIcon width={20} fill="#17b06b"/>
                     {
-                        data.frontmatter.keywords?.split(", ").map(keyword => <a className="ml-2 underline">#{keyword}</a>)
+                        data.frontmatter.keywords?.split(", ").map(keyword => <Link to="/search_tag" state={{word: keyword}} ><a className="ml-2 underline">#{keyword}</a></Link>)
                     }
                 </span>
             </div>
