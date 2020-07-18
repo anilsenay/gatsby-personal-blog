@@ -10,7 +10,8 @@ import BackIcon from '../assets/back_icon';
 
 const Search = ({data, location}) => {
 
-  const word = location.state.word
+  const word = location.state !== undefined ? location.state.word : ""
+
 
   // filtering graphql query with variables is not supporting, so I have to get all data and filter in js
   const posts = data.allMarkdownRemark.nodes.filter(post => post.frontmatter.keywords.includes(word));
@@ -25,7 +26,7 @@ const Search = ({data, location}) => {
       {posts.map(post => {
         return (
           <div>
-            <Link to="/full_post" state={post}><Post data = {post}/></Link>
+            <Link to="full_post" state={post}><Post data = {post}/></Link>
             <hr/>
           </div>
         )

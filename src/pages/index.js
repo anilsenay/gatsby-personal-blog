@@ -17,7 +17,7 @@ const IndexPage = ({data}) => {
       {posts.map(post => {
         return (
           <div>
-            <Link to="/full_post" state={post}><Post data = {post}/></Link>
+            <Link to="full_post" state={post}><Post data = {post}/></Link>
             <hr/>
           </div>
         )
