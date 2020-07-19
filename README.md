@@ -2,7 +2,6 @@
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
-
   <a href="https://www.tailwindcss.com">
     <img alt="TailwindCss" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" width="85" />
   </a>
@@ -12,6 +11,7 @@
 </h1>
 
 <h3>I made this project for learning both Gatsby and Tailwind. </h3>
+<h3>Demo: https://gatsby-personal-blog.vercel.app</h3>
 
 <p>
   This is a personal blog website example. You can easily add posts with uploading markdown(.md) files in github and build project again.
