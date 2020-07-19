@@ -9,7 +9,7 @@ import Header from'../components/header'
 
 const IndexPage = ({data}) => {
   const posts = data.allMarkdownRemark.nodes;
-  const sortedPosts = posts.sort((a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date))
+  const sortedPosts = posts.sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
 
   return (
 
