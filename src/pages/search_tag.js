@@ -15,6 +15,7 @@ const Search = ({data, location}) => {
 
   // filtering graphql query with variables is not supporting, so I have to get all data and filter in js
   const posts = data.allMarkdownRemark.nodes.filter(post => post.frontmatter.keywords.includes(word));
+  const sortedPosts = posts.sort((a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date))
   
   return (
 
@@ -22,8 +23,8 @@ const Search = ({data, location}) => {
       <div className="cursor-pointer" onClick={() => window.history.back()}>
         <BackIcon width={32} fill="#e4e2ff" className="mb-10"/>
       </div>
-      <Header name={`Searched tag: #${word}`} info={`Found ${posts.length} post`}/>
-      {posts.map(post => {
+      <Header name={`Searched tag: #${word}`} info={`Found ${sortedPosts.length} post`}/>
+      {sortedPosts.map(post => {
         return (
           <div>
             <Link to="full_post" state={post}><Post data = {post}/></Link>

@@ -9,12 +9,13 @@ import Header from'../components/header'
 
 const IndexPage = ({data}) => {
   const posts = data.allMarkdownRemark.nodes;
+  const sortedPosts = posts.sort((a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date))
 
   return (
 
     <div className="blog-post-container m-auto max-w-6xl lg:px-20 px-8 mt-24">
       <Header name="Anıl Şenay" info="Personal Blog"/>
-      {posts.map(post => {
+      {sortedPosts.map(post => {
         return (
           <div>
             <Link to="full_post" state={post}><Post data = {post}/></Link>

@@ -1,6 +1,6 @@
 ---
 slug: "/blog-posts/deneme_create_react_app"
-date: "2020-07-18"
+date: "2020-07-17"
 title: "Example: Create-react-app readme from github"
 keywords: "react, create-react-app, blog, test, markdown"
 ---

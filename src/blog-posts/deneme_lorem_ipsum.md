@@ -1,6 +1,6 @@
 ---
 slug: "/blog-posts/deneme_lorem_ipsum"
-date: "2020-07-18"
+date: "2020-06-18"
 title: "Deneme 3. post"
 keywords: "deneme2, lorem, ipsum, blog, test"
 ---
