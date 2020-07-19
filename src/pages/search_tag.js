@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, navigate } from "gatsby"
+import { Link } from "gatsby"
 
 import { graphql } from 'gatsby'
 
@@ -26,7 +26,7 @@ const Search = ({data, location}) => {
       <Header name={`Searched tag: #${word}`} info={`Found ${sortedPosts.length} post`}/>
       {sortedPosts.map(post => {
         return (
-          <div>
+          <div key={post.frontmatter.title}>
             <Link to="full_post" state={post}><Post data = {post}/></Link>
             <hr/>
           </div>

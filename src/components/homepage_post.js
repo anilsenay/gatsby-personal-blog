@@ -17,7 +17,7 @@ export default function Post({data}) {
                 <div className="text-sm flex mb-8 post-info items-center flex-wrap">
                     <div  style={{display: "block"}}><TagIcon width={20} fill="#17b06b"/></div>
                     {
-                        data.frontmatter.keywords?.split(", ").map(keyword => <a className="ml-2 underline">#{keyword}</a>)
+                        data.frontmatter.keywords?.split(", ").map(keyword => <span className="ml-2 underline" key={keyword}>#{keyword}</span>)
                     }
                 </div>
             </div>

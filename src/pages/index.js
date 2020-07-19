@@ -17,7 +17,7 @@ const IndexPage = ({data}) => {
       <Header name="Anıl Şenay" info="Personal Blog"/>
       {sortedPosts.map(post => {
         return (
-          <div>
+          <div key={post.frontmatter.title}>
             <Link to="full_post" state={post}><Post data = {post}/></Link>
             <hr/>
           </div>
