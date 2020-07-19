@@ -14,12 +14,12 @@ export default function Post({data}) {
 
                 </div>
                 <div className="mb-4">{data.excerpt}</div>
-                <span className="text-sm flex mb-8 post-info">
-                    <TagIcon width={20} fill="#17b06b"/>
+                <div className="text-sm flex mb-8 post-info items-center flex-wrap">
+                    <div  style={{display: "block"}}><TagIcon width={20} fill="#17b06b"/></div>
                     {
                         data.frontmatter.keywords?.split(", ").map(keyword => <a className="ml-2 underline">#{keyword}</a>)
                     }
-                </span>
+                </div>
             </div>
     )
 }
