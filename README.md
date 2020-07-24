@@ -14,7 +14,7 @@
 <h3>Demo: https://gatsby-personal-blog.vercel.app</h3>
 
 <p>
-  This is a personal blog website example. You can easily add posts with uploading markdown(.md) files in github and build project again.
+  This is a mobile responsive personal blog website example. You can easily add posts with uploading markdown(.md) files in github and build project again.
   <br>
   <b>You can use it for yourself with forking this project. </b>
   <br>
