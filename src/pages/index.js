@@ -1,7 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import { graphql } from "gatsby"
+
+import Link from "../components/link"
 
 import Post from "../components/homepage_post"
 import Header from "../components/header"
@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
       {sortedPosts.map(post => {
         return (
           <div key={post.frontmatter.title}>
-            <Link to={post.frontmatter.slug}>
+            <Link to={post.frontmatter.slug} style={{ color: "inherit" }}>
               <Post data={post} />
             </Link>
             <hr />

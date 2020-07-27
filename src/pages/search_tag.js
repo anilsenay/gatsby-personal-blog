@@ -1,7 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import { graphql } from "gatsby"
+
+import Link from "../components/link"
 
 import Post from "../components/homepage_post"
 import Header from "../components/header"
